@@ -27,9 +27,9 @@ import com.jasvindersingh.airlinebookingsystem.exceptions.AppException;
 import com.jasvindersingh.airlinebookingsystem.models.Airline;
 import com.jasvindersingh.airlinebookingsystem.services.IAirlineService;
 
-@RestController                     // initiates RESTFull web services 
-@CrossOrigin("*")                   // enable cross-origin resource sharing only for this method by default it allows all origin
-@RequestMapping("/airlines")
+@RestController                 // initiates RESTFull web services 
+@CrossOrigin("*")               // enable httpserver cross-origin resource sharing only for this class.By default it allows all origin
+@RequestMapping("/airlines")        //  maps web requests onto specific handler classes or method
 public class AirlineController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(AirlineController.class);

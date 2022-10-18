@@ -9,7 +9,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig  {
-                                           //antMatchers() configuring URL path & spring security permit request based role
+                                          //antMatchers() configuring URL path & spring security permit request as per user role
 	@Bean
 	protected SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		http.authorizeRequests()

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel</title>
+ <link th:href="@{/css/cssempstyle.css}" type="text/css" rel="stylesheet">
+ <link th:href="@{/css/navigation.css}" type="text/css" rel="stylesheet">
+  <style>
+	.error {
+		color: red;
+	}
+</style>
+</head>
+<body>
+	<div class="topnav">
+		<div class="left">
+	      <!--    <a th:href="@{/home}">Home</a>   -->
+	      <a th:href="@{/index}">Home</a>
+	        <a th:href="@{/booking}">Booking</a>
+	        <a th:href="@{/allbookings}">All Bookings</a>
+	        <a th:href="@{/airline}">Airline</a>
+	        <a class="active" th:href="@{/hotel}">Hotel</a>
+	    </div>
+	    <div class="right">
+		  	<span>Welcome <b th:text="${loggedUser.name}"></b></span>
+		  	<a href="#about" class="right" th:href="@{/logout}">Logout</a>
+	    </div>
+    </div>
+	 <div class="container">
+		<div class="wrapper">		
+			<div class="form_container">
+			  <form name="form" action="#" th:action="@{/hotels/save}" th:object="${hotel}" method="post">
+			        <div class="heading">
+			        	<h2>Hotel</h2>
+			       </div>
+			       	<input id="compId" name="id" type="hidden" th:field="*{id}"/>
+					<div class="form_wrap">
+						<div class="form_item">
+							<label>Hotel Name:*</label>
+							<input id="txtName" type="text" th:field="*{hotelName}" required> 
+						</div>
+					</div>
+					<div class="form_wrap">
+						<div class="form_item">
+							<label>Hotel Location:*</label>
+							<input id="txtPlace" type="text" th:field="*{place}" required> 
+						</div>
+					</div>
+					<div class="form_wrap">
+						<div class="form_item">
+							<label>Hotel Phone:</label>
+							<input id="txtPhone" type="text" th:field="*{phone}"> 
+						</div>
+					</div>
+					<div class="btn">
+					  <input type="submit" value="Submit">
+					</div>
+			  </form>
+			</div>
+		  </div>
+		  <div id="conHotels" class="containerTable" th:if="${(hotelList != null && hotelList.size() > 0)}">
+		  	<table id="tblHotels" class="table">
+		  	  <thead>
+				  <tr>
+				  	<th></th>
+				    <th>Hotel Name</th>
+				    <th>Hotel Location</th>
+				    <th>Hotel Phone</th>
+				  </tr>
+				</thead>
+				<tbody id="tblHotelBody">
+					<tr th:each="hotel: ${hotelList}">
+						<td>
+							<a href="javascript:void(0)" th:onclick="@{'updateHotel(convertPojoToObject(\'' + ${hotel.toString()} + '\',\'Hotel\'),event);'}" style="padding-right: 10px">Update</a>
+							<a href="javascript:void(0)" th:onclick="@{'deleteHotel(convertPojoToObject(\'' + ${hotel.toString()} + '\',\'Hotel\'),event);'}">Delete</a>
+						</td>
+						<td th:text="${hotel.hotelName}"></td>
+						<td th:text="${hotel.place}"></td>
+						<td th:text="${hotel.phone}"></td>
+					</tr>
+				</tbody>
+			 </table>
+		  </div>
+		</div>
+	<script th:src="@{/js/common.js}"></script>
+  	<script th:src="@{/js/hotel.js}"></script>
+</body>
+</html>

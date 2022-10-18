@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+ <link th:href="@{/css/cssempstyle.css}" type="text/css" rel="stylesheet">
+ <link th:href="@{/css/navigation.css}" type="text/css" rel="stylesheet">
+ 
+ <!-- css internal link -->
+ 
+  <style>
+	.error {
+		color: red;
+	}
+</style>
+</head>
+<body>
+	<div class="topnav">
+		<div class="left">
+	         <a th:href="@{/index}">Home</a> 
+	      
+	      
+	        <a class="active" th:href="@{/login}">Login</a>
+	        <a th:href="@{/register}">Register</a>
+	    </div>
+    </div>
+	<div class="wrapper">		
+		<div class="form_container">
+		  <form name="form" action="#" th:action="@{/users/authenticate}" th:object="${user}" method="post">
+		        <div class="heading">
+		        	<h2>Login</h2>
+		       </div>
+				<div class="form_wrap">
+					<div class="form_item">
+						<label>Email Address:*</label>
+						<input id="txtEmail" type="email" th:field="*{email}" required> 
+					</div>
+				</div>
+				<div class="form_wrap">
+					<div class="form_item">
+						<label>Password:*</label>
+						<input id="txtPassword" type="password" th:field="*{password}" required>
+					</div>
+				</div>
+				<div class="form_wrap" style="text-align: right">
+					<a th:href="@{/register}" class="text-info">Register here</a>
+				</div>
+				<div class="btn">
+				  <input type="submit" value="Submit">
+				</div>
+				<div class="form_wrap">
+					<div class="form_item">
+						<p th:if="${(invalidDetails != null)}" th:text="${invalidDetails}" th:class="${(invalidDetails != null)}? error" />
+					</div>
+				</div>
+		  </form>
+		</div>
+	  </div>
+<!--   	<script th:src="@{/js/login.js}"></script> -->
+</body>
+</html>

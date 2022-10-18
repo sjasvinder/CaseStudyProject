@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airline</title>
+  
+  <!-- Thymeleaf -->
+  
+ <link th:href="@{/css/cssempstyle.css}" type="text/css" rel="stylesheet">     
+ <link th:href="@{/css/navigation.css}" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div class="topnav">
+		<div class="left">
+		 <a th:href="@{/home}">Home</a>
+	      <!--    <a th:href="@{/home}">Home</a> -->
+	        <a th:href="@{/booking}">Booking</a>
+	        <a th:href="@{/allbookings}">All Bookings</a>
+	        <a class="active" th:href="@{/airline}">Airline</a>
+	        <a th:href="@{/hotel}">Hotel</a>
+	    </div>
+	    <div class="right">
+		  	<span>Welcome <b th:text="${loggedUser.name}"></b></span>
+		  	<a href="#about" class="right" th:href="@{/logout}">Logout</a>
+	    </div>
+    </div>
+	 <div class="container">
+		<div class="wrapper">		
+			<div class="form_container">
+			  <form name="form" action="#" th:action="@{/airlines/save}" th:object="${airline}" method="post">
+			        <div class="heading">
+			        	<h2>Airline</h2>
+			       </div>
+			       <input id="compId" name="id" type="hidden" th:field="*{id}"/>
+					<div class="form_wrap">
+						<div class="form_item">
+							<label>Airline Name:*</label>
+							<input id="txtName" type="text" required th:field="*{airlineName}"> 
+						</div>
+					</div>
+					<div class="form_wrap">
+						<div class="form_item">
+							<label>Airline Location From:*</label>
+							<input id="txtPlaceFrom" type="text" required th:field="*{placeFrom}"> 
+						</div>
+					</div>
+					<div class="form_wrap">
+						<div class="form_item">
+							<label>Airline Location To:*</label>
+							<input id="txtPlaceTo" type="text" required th:field="*{placeTo}"> 
+						</div>
+					</div>
+					<div class="form_wrap">
+						<div class="form_item">
+							<label>Airline Phone:</label>
+							<input id="txtPhone" type="text" th:field="*{phone}"> 
+						</div>
+					</div>
+					<div class="btn">
+					  <input type="submit" value="Submit">
+					</div>
+			  </form>
+			</div>
+		  </div>
+		  <div id="conAirline" class="containerTable" th:if="${(airlineList != null && airlineList.size() > 0)}">
+		  	<table id="tblAirline" class="table">
+		  	  <thead>
+				  <tr>
+				  	<th></th>
+				    <th>Airline Name</th>
+				    <th>Airline Location From</th>
+				    <th>Airline Location To</th>
+				    <th>Airline Phone</th>
+				  </tr>
+				</thead>
+				<tbody id="tblAirlineBody">
+					<tr th:each="airline: ${airlineList}">
+						<td>
+							<a href="javascript:void(0)" th:onclick="@{'updateAirline(convertPojoToObject(\'' + ${airline.toString()} + '\',\'Airline\'),event);'}" style="padding-right: 10px">Update</a>
+							<a href="javascript:void(0)" th:onclick="@{'deleteAirline(convertPojoToObject(\'' + ${airline.toString()} + '\',\'Airline\'),event);'}">Delete</a>
+						</td>
+						<td th:text="${airline.airlineName}"></td>
+						<td th:text="${airline.placeFrom}"></td>
+						<td th:text="${airline.placeTo}"></td>
+						<td th:text="${airline.phone}"></td>
+					</tr>
+				</tbody>
+			 </table>
+		  </div>
+		</div>
+	<script th:src="@{/js/common.js}"></script>
+  	<script th:src="@{/js/airline.js}"></script>
+</body>
+</html>

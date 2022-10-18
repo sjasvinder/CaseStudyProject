@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>AirlineBookingSystem</title>
+    
+    <!-- Thymeleaf -->
+    
+	<link th:href="@{/css/cssAir.css}" type="text/css" rel="stylesheet">           
+    <link th:href="@{/css/navigation.css}" type="text/css" rel="stylesheet">        
+    
+    <!-- <link rel="stylesheet" href="" > -->
+    <!--  External css file link  -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                
+                                                                            <!-- Internal css file  -->
+
+    <style>                           
+         .logo {
+             margin-top: 55px;
+             margin-bottom: 55px;  
+            
+	          position:fixed; 
+	          top:0;   
+	          left:0;
+            }   
+       
+
+        img {
+            border-radius: 50%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 38px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="topnav" style="height: 21px;">
+    	<div class="left">                                                   
+	        <a class="active" th:href="@{/index}">Home</a>
+	        <a th:href="@{/login}">Login</a>                                      // Thymeleaf
+	        <a th:href="@{/register}">Register</a>
+	    </div>
+    </div>
+    <h1 style="color:brown;" > Welcome to the world of Air and Hotel Booking System </h1>
+
+
+    <div class="logo">
+        <img src="https://previews.123rf.com/images/branche/branche1506/branche150600160/41431468-globe-and-plane-travel-icon.jpg"
+            width="70" height="70" class="img" alt="logo" >
+         <h2 style="color:black;">Air Express </h2> 
+    </div>
+    <div class="hotels">
+        <img src="https://images.unsplash.com/photo-1615722440048-da4ccf6de048?ixlib=rb-1.2.1&
+        ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" width="200" height="200">
+        <img src="https://images.unsplash.com/photo-1615880484746-a134be9a6ecf?ixlib=rb-1.2.1&
+        ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" width="300" height="300" >
+      
+     </div>
+</body>
+
+</html>

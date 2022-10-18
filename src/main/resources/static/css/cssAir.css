@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&display=swap');
+body{
+	background-image: url(https://www.nerdwallet.com/assets/blog/wp-content/uploads/2020/06/GettyImages-1201849974-1920x1152.jpg)
+
+	
+	/* https://cdn.pixabay.com/photo/2019/07/18/20/14/aeroplane-4347341_960_720.jpg */
+	/* http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/airplane-wallpaper-2.jpg */
+	/* https://wallpapers.com/images/hd/lovely-airport-runway-ink2v49d0u509b52.webp */
+
+}
+@media (max-width: 320px) {
+      .main{
+      	width: 100%;
+      }  
+}
+
+#logo {
+	height: auto;
+	background-color: #333;
+	margin-top: 20px;
+	color: #fff;
+}
+.logo h2{
+	margin-top: -20px; 
+	color:rgba(195, 198, 0, 0.982); 
+	text-decoration:initial;
+}
+.logo a:hover{
+	text-decoration: initial;
+} 
+.accountlogo{
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.main{
+	max-width:80% ; 
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+	margin-top: 40px;
+	box-shadow: 6px 6px 3px black;
+
+}
+.maincontent input {
+	color: #333;
+	}
+
+.logo a:hover{
+	text-decoration: initial;
+}
+.maincontent{
+	float: left;
+	
+}
+#choices{
+  display: none;
+}

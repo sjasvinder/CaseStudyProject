@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="style.css">                                       <!-- css external file link -->
+ <link th:href="@{/css/cssempstyle.css}" type="text/css" rel="stylesheet">
+ 
+</head>
+<body>
+	<!--  <nav>
+		<div class="logo">
+		   <b>Welcome to Himalayas TourGuide</b>
+		</div>
+		<ul>
+		   <li><a href="index.html">HOME</a></li>
+		   <li><a href="employeeRegistration.html">Customer Registration</a></li>
+		   <li><a class="active" href="registration.html">Customer Registration</a></li>
+		   <li><a href="places.html">Customer Registered List</a></li>
+		</ul>
+	 </nav>-->
+	<div class="wrapper">		
+		<div class="form_container">
+		  <form name="form" th:onsubmit="userSubmitHandler(event);">
+		        <div class="heading">
+		        	<h2>Registration</h2>
+		       </div>
+				<div class="form_wrap">
+					<div class="form_item">
+						<label>Name:*</label>
+						<input id="txtName" type="text" required> 
+					</div>
+				</div>
+				<div class="form_wrap">
+					<div class="form_item">
+						<label>Email Address:*</label>
+						<input id="txtEmail" type="email" required> 
+					</div>
+				</div>
+				<div class="form_wrap">
+					<div class="form_item">
+						<label>Phone:</label>
+						<input id="txtPhone" type="text"> 
+					</div>
+				</div>
+				<div class="form_wrap">
+					<div class="form_item">
+						<label>Password:*</label>
+						<input id="txtPassword" type="password" required>
+					</div>
+				</div>
+				<div class="form_wrap">
+					<div class="form_item">
+						<label>Retype Password:*</label>
+						<input id="txtRetypePassword" type="password" required>
+						<div class="error" id="retypePasswordError"></div>  
+					</div>
+				</div>
+				<div class="btn">
+				  <input type="submit" value="Register">
+				</div>
+		  </form>
+		</div>
+	  </div>
+  	<script th:src="@{/js/registration.js}"></script>
+</body>
+</html>

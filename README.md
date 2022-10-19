@@ -8,13 +8,11 @@
  favorable dates. It shall also enable the user to cancel and print their itinerary. Each new customer will be required to register themselves and then login with
  their registered using login credentials which enables them to book Airline & hotel together as a pacakage. 
 
-
 # How Does this Application Works 
 This application enables the customers to search & book flights & hotels online.The Airline & Hotel booking system consists of two main types of users. The customers
 who access the information provided by the booking web portal after registering with the application & the Adminstrator can perform the CRUD operation on the Database,
 to update & modify the information by adding Airline and hotels in the web portal.The database  updated accordingly after any modification made by the Admin. This 
 information can then available to the customers to book their flights. The customer can also have the option to cancel their booking any time. 
-
 
 # Technologies Specifications
 
@@ -81,21 +79,54 @@ information can then available to the customers to book their flights. The custo
  
 # Platform
   Windows 11        
+                    
+		    
+			      
+			         ** End of the README.md File **
   
   
   
-  
-                                              ** PowerPoint Screenshots of  Entitity Relationship Diagram ** 
+                            ** PPT Screenshots of Entitity Relationship Diagram ** 
 					      
   
 ![Screenshot (265)](https://user-images.githubusercontent.com/109991803/196778686-9604863a-0fdd-4bc5-ada4-9be518316a16.png)
+
+
+
 
 
   ![Screenshot (266)](https://user-images.githubusercontent.com/109991803/196779682-b3f1951e-094f-41ab-99a7-1719bfe13955.png)
   
   
   
+  
+  
   ![Screenshot (267)](https://user-images.githubusercontent.com/109991803/196779832-96bca262-5fd9-474e-a327-a16b9aa9dd49.png)
+  
+
+
+  
+  ![Screenshot (268)](https://user-images.githubusercontent.com/109991803/196780274-934e1842-36d7-4c99-85e7-da5002e55aec.png)
+
+
+  
+  
+  ![Screenshot (269)](https://user-images.githubusercontent.com/109991803/196780379-ce3c11c9-6774-414e-b4d6-e3b2bcbff82a.png)  
+  
+
+ 
+  
+  ![Screenshot (270)](https://user-images.githubusercontent.com/109991803/196780432-92a6334d-9072-4ba9-bd85-c173932438aa.png)
+
+ 
+  
+  
+  ![Screenshot (271)](https://user-images.githubusercontent.com/109991803/196780593-848556dd-b7a3-4dbd-bec6-bdd98e836643.png)
+
+ 
+  
+  
+  ![Screenshot (272)](https://user-images.githubusercontent.com/109991803/196780659-127a7468-6005-4ea3-a838-1337323a2b3e.png)
 
   
   
@@ -103,10 +134,50 @@ information can then available to the customers to book their flights. The custo
   
   
   
+  ![Screenshot (273)](https://user-images.githubusercontent.com/109991803/196780725-01ad1adb-2ff5-457c-8396-0c96e239eff5.png)
 
-                                     ** End of the README.md File **
+  
+ 
+  
+  ![Screenshot (274)](https://user-images.githubusercontent.com/109991803/196781054-c5a1eba1-9f67-4b69-9bdc-68076ce72376.png)
+
+
+                                     
+				     
+![Screenshot (275)](https://user-images.githubusercontent.com/109991803/196781205-1bbaedf1-ea94-4e09-9454-6b1657e64bf1.png)
+     
+     
+     
+     
+![Screenshot (276)](https://user-images.githubusercontent.com/109991803/196781327-aa06a3e4-3896-458a-8d1b-8349f0e89e74.png)
+	     
+				     				     
 				     
 				     
+![Screenshot (277)](https://user-images.githubusercontent.com/109991803/196781422-e7df9a5b-0357-40d1-a3d5-e0816864084d.png)
+	     
+				     
+				     	     
+				     
+![Screenshot (278)](https://user-images.githubusercontent.com/109991803/196781510-89569185-224d-401f-8f39-c203a8e4d94b.png)
+     
+     
+     
+     
+![Screenshot (279)](https://user-images.githubusercontent.com/109991803/196781620-8052f98e-b90d-48fc-b70a-778ef7586da5.png)
+
+			     
+				     
+![Screenshot (280)](https://user-images.githubusercontent.com/109991803/196781723-88ce1d67-a6cc-4078-93aa-f7b2e3edb9fc.png)
+	     
+				   
+			
+			
+![Screenshot (281)](https://user-images.githubusercontent.com/109991803/196781851-77680f3c-6b5e-4b92-8dfc-884c50e9fc61.png)
+	
+			
+			
+			
 				     
 				     ** Documentation of the Project **
 

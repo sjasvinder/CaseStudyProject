@@ -204,4 +204,5 @@ Scrum in Agile requires roles and responsibilities, including the following: (Pl
 The successfully tracking of the progress of Airline & Hotel booking web portal application was monitored through Jira. This tool makes it easy for developers (myself) to locate, track, and record bugs within the software. All bugs and issues can be viewed in the backlog. With all issues in a single view, Jira makes it easy for teams to prioritize which bugs should be addressed first
 
 
-************End of the Documentation***************************************
+
+********************************************************************End of the Documentation************************************************************************

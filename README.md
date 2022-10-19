@@ -61,23 +61,24 @@ Junit Testing
 	
 # Handling Challenges/Resources
 
- 1.Online Tutorials 
- 
- 2.Practice Code 
- 
- 3.Working with Classmates
- 
- 4.Referring to Canvas-class Cloud Recording 
- 
- 5. Defining Problems
- 
- 6. Implementing Divide & conquer strategy
- 
- 7. Plan & action
- 
- 8. Finally When refreshing the page, the app is reset and worked fine 
- 
- 9. Ofcourse Coffee
+1.	Online Tutorials 
 
+2.	Practice Code 
+
+3.	Working with Classmates
+
+4.	Referring to Canvas-class Cloud Recording 
+
+5.	Defining Problems  
+
+6.	Implementing Divide & conquer strategy 
+
+7.	Plan & action 
+
+8.	Finally, when refreshing the page, the app is reset and worked fine 
+
+9.	And Of course, my Coffee
+
+ 
 # Platform
   Windows 11                                   

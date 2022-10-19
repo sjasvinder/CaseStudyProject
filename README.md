@@ -1,5 +1,5 @@
  # Project Title
- Airline & Hotel Booking web portal System
+ Airline & Hotel Booking Web Portal System ( for PerScholas )
  By: Jasvinder Singh 
  
  # Description
@@ -19,29 +19,29 @@ information can then available to the customers to book their flights. The custo
 
 # Technologies Specifications
 
-Eclipse IDE version 4.25.0
+1. Eclipse IDE version 4.25.0
 
-Java Version 17.0
+2. Java Version 17.0
 
-Spring Boot  version 2.7.4
+3. Spring Boot  version 2.7.4
 
-MariaDB  version 10.8.3
+4. MariaDB  version 10.8.3
 
-Maven version 3.8.6
+5. Maven version 3.8.6
 
-JPA Hibernate Technology
+6. JPA Hibernate Technology
 
-Thymeleaf Templates
+7. Thymeleaf Templates
 
-Bcrypt password Encoder for Sign-up & Login functionality 
+8. Bcrypt password Encoder for Sign-up & Login functionality 
 
-HTML, CSS, JavaScript
+9. HTML, CSS, JavaScript
 
-Web ServiceS- JAX-RS / Spring REST
+10. Web ServiceS- JAX-RS / Spring REST
 
-Spring bean
+11. Spring bean
 
-Junit Testing  
+12. Junit Testing  
 
  
 # Challenges
@@ -82,6 +82,14 @@ Junit Testing
  
 # Platform
   Windows 11        
+  
+  
+
+
+  
+  
+  
+  
   
 
                                      ** End of the README.md File **

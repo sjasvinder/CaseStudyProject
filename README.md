@@ -86,7 +86,7 @@ information can then available to the customers to book their flights. The custo
 			                ** End of the README.md File **
   
   
-                        # PPT Screenshots of Entitity Relationship Diagram  
+                             # PowerPoint Screenshots of the Project  
 					      
   
 ![Screenshot (265)](https://user-images.githubusercontent.com/109991803/196778686-9604863a-0fdd-4bc5-ada4-9be518316a16.png)

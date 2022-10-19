@@ -85,8 +85,7 @@ information can then available to the customers to book their flights. The custo
 			         ** End of the README.md File **
   
   
-  
-                            ** PPT Screenshots of Entitity Relationship Diagram ** 
+                          # PPT Screenshots of Entitity Relationship Diagram  
 					      
   
 ![Screenshot (265)](https://user-images.githubusercontent.com/109991803/196778686-9604863a-0fdd-4bc5-ada4-9be518316a16.png)
@@ -103,6 +102,7 @@ information can then available to the customers to book their flights. The custo
   
   ![Screenshot (267)](https://user-images.githubusercontent.com/109991803/196779832-96bca262-5fd9-474e-a327-a16b9aa9dd49.png)
   
+
 
 
   
@@ -128,9 +128,6 @@ information can then available to the customers to book their flights. The custo
   
   ![Screenshot (272)](https://user-images.githubusercontent.com/109991803/196780659-127a7468-6005-4ea3-a838-1337323a2b3e.png)
 
-  
-  
-  
   
   
   
@@ -175,11 +172,16 @@ information can then available to the customers to book their flights. The custo
 			
 ![Screenshot (281)](https://user-images.githubusercontent.com/109991803/196781851-77680f3c-6b5e-4b92-8dfc-884c50e9fc61.png)
 	
+						
 			
-			
-			
+![Screenshot (282)](https://user-images.githubusercontent.com/109991803/196782679-511ea140-9233-42a3-a685-57164b7731ef.png
+
+
+ **----------------------------------------------------------------------------------------------------------**
+
+
 				     
-				     ** Documentation of the Project **
+				     # Documentation of the Project
 
                            # Project Title:   Airline & Hotel Booking web portal System
   

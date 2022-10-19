@@ -9,7 +9,6 @@
  their registered using login credentials which enables them to book Airline & hotel together as a pacakage. 
 
 
-
 # How Does this Application Works 
 This application enables the customers to search & book flights & hotels online.The Airline & Hotel booking system consists of two main types of users. The customers
 who access the information provided by the booking web portal after registering with the application & the Adminstrator can perform the CRUD operation on the Database,
@@ -84,6 +83,7 @@ information can then available to the customers to book their flights. The custo
   Windows 11        
   
   
+![Screenshot (265)](https://user-images.githubusercontent.com/109991803/196778686-9604863a-0fdd-4bc5-ada4-9be518316a16.png)
 
 
   

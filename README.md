@@ -83,19 +83,16 @@ information can then available to the customers to book their flights. The custo
 		    
 		    
 			      
-			                ** End of the README.md File **
+			       ******* End of the README.md File ********
+					
   
   
-                             # PowerPoint Screenshots of the Project  
+  # Screenshots of the Project (PPT Slides )  
 					      
   
 ![Screenshot (265)](https://user-images.githubusercontent.com/109991803/196778686-9604863a-0fdd-4bc5-ada4-9be518316a16.png)
 
-
-
-
-
-  ![Screenshot (266)](https://user-images.githubusercontent.com/109991803/196779682-b3f1951e-094f-41ab-99a7-1719bfe13955.png)
+![Screenshot (266)](https://user-images.githubusercontent.com/109991803/196779682-b3f1951e-094f-41ab-99a7-1719bfe13955.png)
   
   
   
@@ -184,9 +181,7 @@ information can then available to the customers to book their flights. The custo
 
 
 				     
-				     # Documentation of the Project
-
-                           # Project Title:   Airline & Hotel Booking web portal System
+ # Documentation of the Project: (Airline & Hotel Booking web portal System )
   
   
 # SDLC Cycle: Software Development Life Cycle
@@ -256,3 +251,6 @@ Scrum in Agile requires roles and responsibilities, including the following: (Pl
 
 # Jira: A Progress Tracking Tool
 The successfully tracking of the progress of Airline & Hotel booking web portal application was monitored through Jira. This tool makes it easy for developers (myself) to locate, track, and record bugs within the software. All bugs and issues can be viewed in the backlog. With all issues in a single view, Jira makes it easy for teams to prioritize which bugs should be addressed first
+
+
+*******************************************************************End of the Documentation***************************************************************************

@@ -175,7 +175,7 @@ information can then available to the customers to book their flights. The custo
 	
 						
 			
-![Screenshot (282)](https://user-images.githubusercontent.com/109991803/196782679-511ea140-9233-42a3-a685-57164b7731ef.png
+![Screenshot (282)](https://user-images.githubusercontent.com/109991803/196782679-511ea140-9233-42a3-a685-57164b7731ef.png)
 
 
  **----------------------------------------------------------------------------------------------------------**

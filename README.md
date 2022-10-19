@@ -93,7 +93,7 @@ Junit Testing
                            # Project Title:   Airline & Hotel Booking web portal System
   
   
-#SDLC Cycle: Software development life cycle
+# SDLC Cycle: Software development life cycle
 The Agile principles and Scrum framework was considered while working on this project along with the SDLC/STLC cycles during compile of this project. This involves
 the following stages:
 
@@ -109,7 +109,7 @@ the following stages:
 
 6.Maintenance: There is always a space to upgrade and fix the code after implementation and we can always come back to upgrade the project as per Agile principles and values.
 
-# STLC Cycle:   Software Testing life cycle
+# STLC Cycle: Software Testing life cycle
 
 1.Requirement Analysis: Requirement Analysis is the first step of Software Testing Life Cycle (STLC). In this phase quality assurance team understands the requirements like what is to be tested. If anything is missing or not understandable, then quality assurance team meets with the stakeholders to better understand the detail knowledge of requirement.
 
@@ -124,7 +124,8 @@ the following stages:
 
 6.Test Closure: This is the last stage of STLC in which the process of testing is analyzed.
 
-#Agile Principles and Scrum Framework:  This project is based on the Agile Model and SDLC/STLC cycles. These values were considered right from the product planning and Deployment. The scrum framework was considered which is an integral part of the Agile. Agile has gained tremendous popularity because of its values and principles whereas V Model which is an extension of waterfall Methodology is expensive and meant for large projects only.The four core values & principles of Agile are:
+# Agile Principles and Scrum Framework:  
+This project is based on the Agile Model and SDLC/STLC cycles. These values were considered right from the product planning and Deployment. The scrum framework was considered which is an integral part of the Agile. Agile has gained tremendous popularity because of its values and principles whereas V Model which is an extension of waterfall Methodology is expensive and meant for large projects only.The four core values & principles of Agile are:
 
 1.Individuals and interactions over processes and tools
 
@@ -138,10 +139,11 @@ This is the reason I considered Agile Model over V Model. Agile is an easy, simp
 
 Airline & Hotel Booking web portal System is based on four steps of scrum which are: sprint planning, daily scrum, sprint review & sprint retrospective. Following Agile, the more focus was given on coding & testing part. Scrum meeting was done frequently by me since this is an individual project. Whereas V-Model is a traditional  method that helps in getting quality of the product but very expense.
 
-#How does a team (myself) become Agile?
+# How does a team (myself) become Agile?
 The team make their decision based on Agile set of values and principles. Decision making process is how a team become an Agile. The values and principles have enough flexibility to allow the team in a wide variety of organization to develop the software to the way best works for their situation. By providing the enough directions to help the team to continually move their full potential.
 
-Scrum is a framework of Agile model. It is based on rules, roles, events, and artifacts used to implement Agile projects. It is an iterative approach, consisting of sprints that typically only last one to four weeks. This approach ensures that the team delivers a version of the product regularly.
+# Scrum is a framework of Agile model 
+It is based on rules, roles, events, and artifacts used to implement Agile projects. It is an iterative approach, consisting of sprints that typically only last one to four weeks. This approach ensures that the team delivers a version of the product regularly.
 Scrum in Agile requires roles and responsibilities, including the following: (Please Note since it was an individual project & daily scrum and sprint meetings was done myself during the development of this project. It contains following members:
 
 1.Product owner: The product owner is responsible for representing the customer’s best interest
@@ -156,5 +158,5 @@ Scrum in Agile requires roles and responsibilities, including the following: (Pl
 
 6.Retrospective: Each sprint should end with a review meeting, called a retrospective. Here, the team reviews their progress and discusses how they can improve in the   next sprint.
 
-#Jira: 
+# Jira: 
 The successfully tracking of the progress of Airline & Hotel booking web portal application was monitored through Jira. This tool makes it easy for developers (myself) to locate, track, and record bugs within the software. All bugs and issues can be viewed in the backlog. With all issues in a single view, Jira makes it easy for teams to prioritize which bugs should be addressed first

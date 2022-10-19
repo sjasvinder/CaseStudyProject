@@ -83,9 +83,21 @@ information can then available to the customers to book their flights. The custo
   Windows 11        
   
   
+  
+  
+                                              ** PowerPoint Screenshots of  Entitity Relationship Diagram ** 
+					      
+  
 ![Screenshot (265)](https://user-images.githubusercontent.com/109991803/196778686-9604863a-0fdd-4bc5-ada4-9be518316a16.png)
 
 
+  ![Screenshot (266)](https://user-images.githubusercontent.com/109991803/196779682-b3f1951e-094f-41ab-99a7-1719bfe13955.png)
+  
+  
+  
+  ![Screenshot (267)](https://user-images.githubusercontent.com/109991803/196779832-96bca262-5fd9-474e-a327-a16b9aa9dd49.png)
+
+  
   
   
   

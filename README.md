@@ -133,7 +133,7 @@ information can then available to the customers to book their flights. The custo
 	
 	
 	
-# Documentation of the Project: (Airline & Hotel Booking web portal System )
+# Documentation of the Project
   
 ## SDLC Cycle: Software Development Life Cycle
 The Agile principles and Scrum framework was considered while working on this project along with the SDLC/STLC cycles during compile of this project. This involves

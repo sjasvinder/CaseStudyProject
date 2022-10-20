@@ -88,7 +88,9 @@ information can then available to the customers to book their flights. The custo
   
   
   # Screenshots of the Project (PPT Slides )  
-					      
+    
+  
+![Screenshot (284)](https://user-images.githubusercontent.com/109991803/196843035-f1479622-8137-4812-9f07-28280fa4d146.png)		      
   
 ![Screenshot (265)](https://user-images.githubusercontent.com/109991803/196778686-9604863a-0fdd-4bc5-ada4-9be518316a16.png)
 
